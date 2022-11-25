@@ -98,10 +98,13 @@ input, select{
 }
 .is-valid {
   color: #198754;
+  border: #198754 5px solid;
 }
 
 .is-invalid {
-  color: #842029;
+  color: #BB2D3B;
+  border: #BB2D3B 5px solid;
+
 }
 
 .alert-warning{

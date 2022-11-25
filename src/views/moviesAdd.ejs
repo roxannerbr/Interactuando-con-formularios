@@ -16,8 +16,8 @@
     <br>
     <section id="formulario" >
         <article class="mostrarFormulario">
-            <ul class="errores"></ul>
-            <form class="form" action="/movies/create" method="POST">
+            <ul class="errores" id="errores"></ul>
+            <form class="form" action="/movies/create" id="form" method="POST">
                 <label for="title">Titulo </label>
                 <div><input type="text" name="title" id="title" ></div>
                 <label for="rating">Calificación </label>
@@ -38,11 +38,12 @@
                     </select>
                 </div>
                 <br>
-                <div> <button class="botonAgregar" type="submit">Agregar</button>
+                <div> <button class="botonAgregar" id="btn-agregar" type="submit">Agregar</button>
                 
                 <a  class="botonVolver" href="/movies">Listado de Películas</a></div>
             </form>
         </article>
     </section>
+    <script src="/js/moviesAddValidation.js"></script>
 </body>
 </html>
